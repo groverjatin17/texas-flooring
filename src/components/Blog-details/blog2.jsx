@@ -57,7 +57,7 @@ const Blog1 = () => {
                             busy lifestyles. With their smooth and non-porous
                             surfaces, dirt and grime can be easily wiped away.
                             Regular maintenance involves simple cleaning
-                            routines, preserving the tiles' original luster and
+                            routines, preserving the tiles&apos; original luster and
                             cleanliness for years to come.
                           </li>
 
