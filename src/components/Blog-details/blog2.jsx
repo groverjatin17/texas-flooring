@@ -24,7 +24,7 @@ const Blog1 = () => {
                           and captivating choice. With their endless variety of
                           styles, colors, and textures, tiles offer a multitude
                           of design possibilities to enhance the aesthetic
-                          appeal and functionality of your bathroom. Let's
+                          appeal and functionality of your bathroom. Let&apos;s
                           explore the benefits and creative potential of using
                           tiles in your bathroom renovations.
                         </p>

@@ -84,7 +84,7 @@ const VideoWithTestimonials = () => {
                   <div className="item">
                     <p>
                       I can't believe how Texas Floors Canada made my old floors
-                      sing and dance. It's like a flooring symphony!
+                      sing and dance. It&apos;s like a flooring symphony!
                     </p>
                     <div className="info">
                       <div className="img">

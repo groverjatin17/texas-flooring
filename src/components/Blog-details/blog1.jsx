@@ -22,9 +22,9 @@ const Blog1 = () => {
                           When it comes to hardwood, Canada boasts an incredible
                           wealth of natural resources. From coast to coast, this
                           vast country is home to an abundant variety of
-                          hardwood species that showcase the country's diverse
+                          hardwood species that showcase the country&apos;s diverse
                           ecosystems and offer a stunning array of colors, grain
-                          patterns, and durability. Let's take a closer look at
+                          patterns, and durability. Let&apos;s take a closer look at
                           some of the hardwoods found in Canada, each with its
                           own unique charm and characteristics.
                         </p>
@@ -65,7 +65,7 @@ const Blog1 = () => {
                           and richness. Its natural variations in color create a
                           sense of depth and character, making it a popular
                           choice for fine furniture, flooring, and decorative
-                          items. Walnut's luxurious appeal adds an air of
+                          items. Walnut&apos;s luxurious appeal adds an air of
                           sophistication to any interior.
                         </li>
                         <li>
@@ -73,7 +73,7 @@ const Blog1 = () => {
                           and contemporary aesthetic. Its smooth and even
                           texture, combined with its strength and durability,
                           makes it a versatile choice for various applications,
-                          including furniture, cabinetry, and flooring. Birch's
+                          including furniture, cabinetry, and flooring. Birch&apos;s
                           light tones and subtle grain patterns contribute to a
                           bright and inviting atmosphere.
                         </li>
