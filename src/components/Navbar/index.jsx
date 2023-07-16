@@ -52,7 +52,7 @@ const Navbar = ({ lr, nr, theme }) => {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
-            {/* <li className="nav-item dropdown" onClick={handleDropdown}>
+            <li className="nav-item dropdown" onClick={handleDropdown}>
               <span
                 className="nav-link dropdown-toggle"
                 data-toggle="dropdown"
@@ -60,14 +60,14 @@ const Navbar = ({ lr, nr, theme }) => {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                Home
+                Products
               </span>
               <div className="dropdown-menu">
-                <Link href="/home/home1-light">
-                  <a className="dropdown-item">Main Home</a>
+                <Link href="/products/maple-hardwood">
+                  <a className="dropdown-item">Maple Hardwood</a>
                 </Link>
                 <Link href="/home/home2-light">
-                  <a className="dropdown-item">Creative Studio</a>
+                  <a className="dropdown-item">Vinyl</a>
                 </Link>
                 <Link href="/home/home3-light">
                   <a className="dropdown-item">Business Startup</a>
@@ -82,7 +82,7 @@ const Navbar = ({ lr, nr, theme }) => {
                   <a className="dropdown-item">IT Frog</a>
                 </Link>
               </div>
-            </li> */}
+            </li>
 
             {/* <li className="nav-item dropdown" onClick={handleDropdown}>
               <span

@@ -1,12 +1,11 @@
 import React from "react";
-import LightTheme from "../../layouts/Light";
-import Navbar from "../../components/Navbar";
+import DarkTheme from "../../layouts/Dark";
 import addParlx from "../../common/addParlx";
-import SmallFooter from "../../components/Small-footer";
+import Navbar from "../../components/Navbar";
 import CallToAction from "../../components/Call-to-action";
-import PortfolioTwoColumn from "../../components/maple-hardwood";
+import PortfolioTwoColumn from "../../components/Portfolio-two-column";
 
-const Works4Light = () => {
+const Works4Dark = () => {
   const fixedHeader = React.useRef(null);
   const MainContent = React.useRef(null);
   const navbarRef = React.useRef(null);
@@ -14,7 +13,6 @@ const Works4Light = () => {
 
   const [pageLoaded, setPageLoaded] = React.useState(false);
   React.useEffect(() => {
-    document.querySelector('body').classList.add('menubarblack');
     setPageLoaded(true);
     if (pageLoaded) {
       addParlx();
@@ -47,8 +45,8 @@ const Works4Light = () => {
   }, [fixedHeader, MainContent, navbarRef]);
 
   return (
-    <LightTheme>
-      <Navbar nr={navbarRef} lr={logoRef} theme="themeL" />
+    <DarkTheme>
+      <Navbar nr={navbarRef} lr={logoRef} />
       <header
         ref={fixedHeader}
         className="works-header fixed-slider hfixd valign"
@@ -74,11 +72,20 @@ const Works4Light = () => {
       </header>
       <div ref={MainContent} className="main-content">
         <PortfolioTwoColumn />
-        <CallToAction theme="light" />
-        <SmallFooter />
+        <CallToAction />
+        <footer className="footer-half sub-bg">
+          <div className="container">
+            <div className="copyrights text-center mt-0">
+              <p>
+                © 2022, Avo Template. Made with passion by
+                <a href="#0">ThemesCamp</a>.
+              </p>
+            </div>
+          </div>
+        </footer>
       </div>
-    </LightTheme>
+    </DarkTheme>
   );
 };
 
-export default Works4Light;
+export default Works4Dark;
