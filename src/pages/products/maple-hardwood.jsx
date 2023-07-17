@@ -58,14 +58,14 @@ const Works4Light = () => {
             <div className="col-lg-9 col-md-11 static">
               <div className="capt mt-50">
                 <div className="parlx">
-                  <h2 className="custom-font">My amazing works</h2>
+                  <h2 className="custom-font">Hardwood</h2>
                   <p>
-                    Creative way to showcase your works at their absolute best.
+                    100% Canadian, handcrafted right here at home.
                   </p>
                 </div>
 
                 <div className="bactxt custom-font valign">
-                  <span className="full-width">Works</span>
+                  <span className="full-width">SOLID</span>
                 </div>
               </div>
             </div>
