@@ -171,26 +171,20 @@ const PortfolioTwoColumn = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-6 items web">
-            <div className="row">
-              <div className="col-lg-11 offset-lg-1">
-                <div className="item-img wow fadeInUp" data-wow-delay=".4s">
-                  {/* <Link href="/project-details/project-details-dark"> */}
-                    <a>
-                      <img
-                        src="/img/portfolio/works/sweedish.jpg"
-                        alt="image"
-                      />
-                    </a>
-                  {/* </Link> */}
-                  <div className="cont">
-                    <h6>Sweedish</h6>
-                    <span>
-                      <a href="#0">Maple</a>, <a href="#0">4-1/4 inch</a>,{" "}
-                      <a href="#0">31005</a>
-                    </span>
-                  </div>
-                </div>
+          
+          <div className="col-md-6 items brand">
+            <div className="item-img wow fadeInUp" data-wow-delay=".4s">
+              {/* <Link href="/project-details/project-details-dark"> */}
+                <a>
+                  <img src="/img/portfolio/works/natural.png" alt="image" />
+                </a>
+              {/* </Link> */}
+              <div className="cont">
+                <h6>Natural</h6>
+                <span>
+                  <a href="#0">Maple</a>, <a href="#0">4-1/4 inch</a>,{" "}
+                  <a href="#0">31021</a>
+                </span>
               </div>
             </div>
           </div>

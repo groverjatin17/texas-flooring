@@ -66,10 +66,10 @@ const Navbar = ({ lr, nr, theme }) => {
                 <Link href="/products/maple-hardwood">
                   <a className="dropdown-item">Maple Hardwood</a>
                 </Link>
-                <Link href="/home/home2-light">
-                  <a className="dropdown-item">Vinyl</a>
+                <Link href="#">
+                  <a className="dropdown-item">Premium LVP Vinyl</a>
                 </Link>
-                <Link href="/home/home3-light">
+                {/* <Link href="/home/home3-light">
                   <a className="dropdown-item">Business Startup</a>
                 </Link>
                 <Link href="/home/home4-light">
@@ -80,7 +80,7 @@ const Navbar = ({ lr, nr, theme }) => {
                 </Link>
                 <Link href="/home/home6-light">
                   <a className="dropdown-item">IT Frog</a>
-                </Link>
+                </Link> */}
               </div>
             </li>
 
