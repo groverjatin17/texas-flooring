@@ -33,14 +33,13 @@ const Footer = ({ noSubBG }) => {
                     <span>Email : </span> info@texasfloors.com
                   </li>
                   <li>
-                    <span>Address : </span> 1000 Steeles Ave E, Brampton, ON L6T
-                    1A1
+                    <span>Address : </span> London, Ontario
                   </li>
                   <li>
                     <span>Telephone : </span> +1 (647)-407-5430
                   </li>
                   <li>
-                    <span>Phone : </span> +1 (437)-984-8059
+                    <span>Phone : </span> +1 (226)-499-5290
                   </li>
                 </ul>
               </div>

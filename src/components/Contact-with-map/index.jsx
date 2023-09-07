@@ -122,7 +122,7 @@ const ContactWithMap = ({ theme = "dark" }) => {
                   <h5>
                     <a href="#0">info@texasfloors.com</a>
                   </h5>
-                  <h5>+1 (437)-984-8059</h5>
+                  <h5>+1 (226)-499-5290</h5>
                   <h5>+1 (647)-407-5430</h5>
                   
                 </div>
@@ -133,7 +133,7 @@ const ContactWithMap = ({ theme = "dark" }) => {
                 </Split>
                 <div className="item">
                   <h6>
-                    Steels Road, Brampton, N2H 5W6
+                    London
                     <br />
                     Ontario, Canada
                   </h6>

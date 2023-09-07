@@ -104,3 +104,13 @@ section.next-prog {
 section.team.section-padding {
   overflow: hidden;
 }
+
+.price{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: green;
+  width: 80px;
+  height: 80px;
+  opacity: 0.8;
+}

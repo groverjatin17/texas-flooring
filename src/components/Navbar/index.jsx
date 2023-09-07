@@ -66,7 +66,7 @@ const Navbar = ({ lr, nr, theme }) => {
                 <Link href="/products/maple-hardwood">
                   <a className="dropdown-item">Maple Hardwood</a>
                 </Link>
-                <Link href="#">
+                <Link href="/products/vinyl">
                   <a className="dropdown-item">Premium LVP Vinyl</a>
                 </Link>
                 {/* <Link href="/home/home3-light">
